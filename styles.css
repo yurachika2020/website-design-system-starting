@@ -1,0 +1,123 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    margin: 0 10%;
+}
+
+/* navigation bar */
+
+.navbar {
+    width: 100%;
+    height: 10px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    margin-right: 30px;
+    line-height: inherit;
+    white-space: nowrap;
+    background-color: #a2a2a6;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.nav-link {
+    padding: 30px 30px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    font-size: larger;
+    color: #fff;
+}
+
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/* colors section */
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.dark-cyan {
+    background-color: #008B8B;
+    color: #fff;
+}
+.dark-slate-grey {
+    background-color: #2F4F4F;
+    color: #fff;
+}
+.light-coral {
+    background-color: #F08080;
+    color: #000;
+}
+.slate-grey {
+    background-color: #708090;
+    color: #fff;
+}
+
+/* fonts section */
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.regular {
+    font-style: normal;
+}
+.bold {
+    font-weight: 700;
+}
+.italic {
+    font-style: italic;
+}
+.pt-serif {
+    font-family: 'PT Serif', monospace;
+}
+
+.cabin {
+    font-family: 'Cabin', monospace;
+}
+.cormorant-garamond {
+    font-family: 'Cormorant Garamond', monospace;
+}
+
+
+/* text styles section */
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', sans-serif;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Cormorant Garamond', sans-serif;
+}
